@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+		content="width=device-width, 
+						initial-scale=1.0">
+	<title>Sign In</title>
+	<link rel="stylesheet" href="signin.css">
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+</head>
+
+<body>
+	<header>
+		<h1 class="heading"></h1>
+		<h3 class="title"><b>Sliding Login & Registration Form</b></h3>
+	</header>
+
+	<!-- container div -->
+	<div class="container">
+
+		<!-- upper button section to select
+			the login or signup form -->
+		<div class="slider"></div>
+		<div class="btn">
+			<button class="login">Login</button>
+			<button class="signup">Signup</button>
+		</div>
+
+		<!-- Form section that contains the
+			login and the signup form -->
+		<div class="form-section">
+
+			<!-- login form -->
+			<div class="login-box">
+				<input type="email"
+					class="email ele"
+					placeholder="youremail@email.com">
+				<input type="password"
+					class="password ele"
+					placeholder="password">
+				<button type="submit">Submit to signup page</button>
+			</div>
+
+			<!-- signup form -->
+			<div class="signup-box">
+				<input type="text"
+					class="name ele"
+					placeholder="Enter your name">
+				<input type="email"
+					class="email ele"
+					placeholder="youremail@email.com">
+				<input type="password"
+					class="password ele"
+					placeholder="password">
+				<input type="password"
+					class="password ele"
+					placeholder="Confirm password">
+				<button type="signup" formaction="index (1).html">Signup</button>
+			</div>
+		</div>
+	</div>
+	<script src="signin.js"></script>
+</body>
+</html>
